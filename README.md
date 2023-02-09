@@ -18,10 +18,5 @@ This simple "toy" potential reproduces the same 1 eV barrier (or Gap in that cas
 Three-dimensional generalization of the 2DTISE file. The potential in this case is represented by a lattice of effective single electron potentials obtained from the interaction between the electron and the He-4 atoms, 
 $$(3) \; V(r) = \sum_{i \in cc} v^{He}(r-r_i),$$
 where cc stands for cubic cell lattice and the single atom potential is (in atomic units), 
-$$(4) \; v_{He}(r) \approx a(b - 1/(r + 0.5)) e^{-c r} - \frac{\alpha}{2 r^4 + b}$$.
-Here α is the Helium polarizability a,b, and c can be derived from a more complicated form obtained by the pseudopotential method (Kestner (1967), Takada & Kohn (1987)) or Density Functional Theory. The 1st term comes from the attractive interaction of the electron with the nucleus and the Pauli repulsion (i.e. exclusion of Fermion statistics), and the second term comes mainly from the adiabatic dipole response of the Helium atom to the electric field of the electron.
-# Finite-element-method
-## Physics Background
-Solution of Time independent Schrodinger Eq using Finite element method. The system we solve here is Electrons-On-Helium system. As the name suggests,
-the system is composed of an electron bound to a surface of superuid Helium-4 (He). The binding surface potential consists of a short-range Pauli repulsion, keeping the electron out of the superfluid, and a long-range image-charge attraction, responsible for the electronic surface states. 
-Since the atoms in the superfluid are adiabatic with respet to the electron they  can be modeled as frozen. Thus simplification is used where the fluid is modeled by lattice atoms with the same density as the fluid atoms. My current research concentrate on the 
+$$(4) \; v_{He}(r) \approx a\left(b - \frac{1}{(r + 0.5)}\right) e^{-c \; r} - \frac{\alpha}{2 r^4 + b}$$.
+Here α is the Helium polarizability, a,b, and c can be derived from a more complicated form of effetive potential obtained by the pseudopotential method (Kestner (1967), Takada & Kohn (1987)) or Density-Functional-Theory (Whaley (1998)). The 1st term in Eq (4) comes from the attractive interaction of the electron with the nucleus and the Pauli repulsion (i.e. exclusion of Fermion statistics), and the second term comes mainly from the adiabatic dipole response of the Helium atom to the electric field of the electron.
