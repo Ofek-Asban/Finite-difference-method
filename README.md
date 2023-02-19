@@ -1,4 +1,4 @@
-# Finite-element-method
+# Finite-difference-method
 ## Physics Background
 Solution of Time independent Schrodinger Eq using Finite element method. The system we solve here is Electrons-On-Helium system. As the name suggests,
 the system is composed of an electron bound to a surface of superfluid Helium-4 (He). The binding surface potential consists of a short-range Pauli repulsion, keeping the electron out of the superfluid, and a long-range image-charge attraction, responsible for the electronic surface states. 
